@@ -1,6 +1,6 @@
 # https://github.com/Oliver-Nava/lab11-ON-CL
 # Oliver Nava Partner 1
-# Carlos Laege
+# Carlos Laege Partner 2
 import unittest
 from calculator import *
 
