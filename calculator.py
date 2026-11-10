@@ -1,4 +1,7 @@
 # https://github.com/Oliver-Nava/lab11-ON-CL
+# Oliver Nava Partner 1
+# Carlos Laege
+
 """
 calculator.py
 - Defines functions used to create a simple calculator
