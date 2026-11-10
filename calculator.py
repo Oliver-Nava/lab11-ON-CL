@@ -1,19 +1,25 @@
+# https://github.com/Oliver-Nava/lab11-ON-CL
 """
 calculator.py
 - Defines functions used to create a simple calculator
-
 One function per operation, in order.
 """
 import math
-# First example
-import math
 
+def square_root(a):
+    try:
+        return math.sqrt(a)
+    except:
+        raise ValueError("Cant use negative numbers")
+
+def hypotenuse(a, b):
+    return math.hypot(a, b)
 
 def add(a, b):
     return a + b
 
 
-def sub(a, b):
+def subtract(a, b):
     return a - b
 
 
@@ -27,7 +33,7 @@ def div(a, b):
     return b / a  # raise ZeroDivisionError if a == 0
 
 
-def log(a, b):
+def logarithm(a, b):
     if b <= 0:
         raise ValueError
     elif a == 1:
